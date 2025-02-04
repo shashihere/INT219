@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Task Css Grid</title>
+    <style>
+        .container{
+            padding: 10px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            /* grid-template-rows: 150p; */
+        }
+        .item{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        #id1{
+            /* grid-area: 1/1/span 1/span 3;
+             */
+             grid-column-start: 1;
+             grid-column-end: 4;
+             text-align: center;
+
+        }
+        #id2{
+            /* grid-area: 2/1/span 1/span 3; */
+            grid-column-start: 1;
+            grid-column-end: 4;
+            text-align: center;
+        }
+        #id6{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            text-align: center;
+        }
+        #id3{
+            text-align: center;
+        }
+        #id4{
+            text-align: center;
+        }
+        #id5{
+            text-align: center;
+        }
+        img{
+            width: auto;
+            height: 100%;
+            object-fit: cover;
+            background-color: aliceblue;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="id1"><h2>Famous Dishes Of India</h2></div>
+        <div class="item" id="id2">
+            <img src="https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?cs=srgb&dl=pexels-saveurssecretes-5560763.jpg&fm=jpg" alt="" ">
+            <figcaption>Dosa</figcaption>
+        </div>
+        <div class="item" id="id3">
+            <img src="https://cdn1.foodviva.com/static-content/food-images/snacks-recipes/pani-puri/pani-puri.jpg" alt="">
+            <figcaption>Pani Puri</figcaption>
+         </div>
+        <div class="item" id="id4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNpHklPkz02Lp6ihfChxkyvwH4pJn2HUIOw&s" alt="">
+            <figcaption>Farmhouse Pizza</figcaption>    
+        </div>
+        <div class="item" id="id5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSen1e0v90noQz9Kp6B0Q5tKtfpREJIFm8h7A&s" alt="">
+            <figcaption>Briyani</figcaption>
+         </div>
+        <div class="item" id="id6">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/023/809/530/small/a-flying-burger-with-all-the-layers-ai-generative-free-photo.jpg" alt="">
+            <figcaption>Burger</figcaption>
+         </div>
+        <div class="item" id="id7">
+            <p>
+
+            </p>
+             
+        </div>
+    </div>
+</body>
+</html>

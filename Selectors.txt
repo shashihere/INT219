@@ -1,0 +1,8 @@
+Types of Selectors:
+1- Type Selectors
+2- Attribute Selectors
+3- ID Selectors
+4- Class Selectors
+5- Universal Selectors
+6- Pseudo Selectors
+7- Combinator Selectors

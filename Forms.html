@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="uname">Enter Name:</label>
+        <input type="text" name="name1" id="uname" placeholder="Enter Name" size="40" maxlength="10" required>
+        <br>
+        <label for="pass">Enter Password</label>
+        <input type="password" name="pswrd" id="pass" placeholder="Enter password" required>
+        <br>
+        <label for="email1">Enter Email</label>
+        <input type="email" name="email" id="email1" placeholder="Enter email address" required>
+        <br>
+        <label for="feedback">Feedback:</label>
+        <textarea name="feedback" id="feedback" placeholder="Give feedback" rows="5" cols="20"></textarea>
+        <br>
+        <label for="hobby">Hobby:</label>
+        <input type="checkbox" name="hobby" id="hobby" value="cook" checked>Cooking      
+        <input type="checkbox" name="hobby" id="hobby" value="sing">Singing
+        <input type="checkbox" name="hobby" id="hobby" value="dance">Dancing
+        <input type="checkbox" name="hobby" id="hobby" value="read">Reading
+        <br>
+        <label for="pro">Programme:</label>
+        <input type="radio" name="pro" id="BTech" value="BTech">
+        <label for="Btech">BTech</label>
+        <input type="radio" name="pro" id="BCA" value="BCA">
+        <label for="BCA">BCA</label>
+        <input type="radio" name="pro" id="BBA" value="BBA">
+        <label for="BBA">BBA</label>
+        <br>
+        <label for="state">Select state:</label>
+        <select name="state" id="state" size="3" multiple>
+            <option value="state">Choose your state</option>
+            <option value="punjab" selected>Punjab</option>
+            <option value="uttar pradesh">Uttar Pradesh</option>
+            <option value="himachal">Himachal Pradesh</option>
+            <option value="kerela">Kerela</option>
+            <option value="tamil">Tamil Nadu</option>
+            <option value="haryana">Haryana</option>
+
+        </select>
+        <br>
+        <label for="filesel">Choose file:</label>
+        <input type="file" id="filesel" name="filesel">
+        <input type="reset">
+        <input type="image" name="img" id="img" src="submit.jpg" width="90" height="40">
+
+
+
+
+
+
+
+
+
+
+
+
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>
